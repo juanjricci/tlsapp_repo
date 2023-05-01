@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/juanricci/Documents/UM/tif_III/tif_III/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/home/juanricci/Documents/UM/tif_III/tif_III/tlsapp_repo/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/home/juanricci/.gradle/caches/transforms-3/d6611a22cd6a64625047b531b6a3eaa6/transformed/appcompat-1.3.1/res/values/values.xml",
@@ -76,20 +76,20 @@
                     }
                 },
                 {
-                    "source": "/home/juanricci/Documents/UM/tif_III/tif_III/android/app/src/main/res/values/colors.xml",
+                    "source": "/home/juanricci/Documents/UM/tif_III/tif_III/tlsapp_repo/android/app/src/main/res/values/dimens.xml",
                     "from": {
-                        "startLines": "27,22,23,19,24,25,26,21,20",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "1175,922,980,759,1038,1083,1129,865,812",
-                        "endColumns": "46,57,57,52,44,45,45,56,52",
-                        "endOffsets": "1217,975,1033,807,1078,1124,1170,917,860"
+                        "startLines": "26,27,25,23,24,28,29,22,19,18,31",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1073,1134,1010,902,954,1203,1275,848,770,727,1345",
+                        "endColumns": "60,68,62,51,55,71,68,53,50,42,65",
+                        "endOffsets": "1129,1198,1068,949,1005,1270,1339,897,816,765,1406"
                     },
                     "to": {
-                        "startLines": "362,367,368,369,403,404,405,406,447",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "16431,16797,16855,16913,19300,19345,19391,19437,22135",
-                        "endColumns": "46,57,57,52,44,45,45,56,52",
-                        "endOffsets": "16473,16850,16908,16961,19340,19386,19432,19489,22183"
+                        "startLines": "531,532,533,534,535,536,537,538,672,673,780",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "27758,27819,27888,27951,28003,28059,28131,28200,36766,36817,42659",
+                        "endColumns": "60,68,62,51,55,71,68,53,50,42,65",
+                        "endOffsets": "27814,27883,27946,27998,28054,28126,28195,28249,36812,36855,42720"
                     }
                 },
                 {
@@ -107,25 +107,6 @@
                         "startOffsets": "40327,40384,41691",
                         "endColumns": "56,42,40",
                         "endOffsets": "40379,40422,41727"
-                    }
-                },
-                {
-                    "source": "/home/juanricci/Documents/UM/tif_III/tif_III/android/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "42,48,19,21,23,29,30,25,27,17,39,34,37,33,32,35,38,36,40",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2057,2205,771,859,979,1359,1460,1098,1229,726,1970,1688,1869,1631,1561,1750,1922,1811,2012",
-                        "endLines": "46,54,19,22,24,29,30,26,28,17,39,34,37,33,32,35,38,36,40",
-                        "endColumns": "19,19,86,23,23,100,99,31,31,43,41,61,52,56,69,60,47,57,43",
-                        "endOffsets": "2199,2453,853,974,1093,1455,1555,1224,1354,765,2007,1745,1917,1683,1626,1806,1965,1864,2051"
-                    },
-                    "to": {
-                        "startLines": "2,7,821,822,824,826,827,828,830,832,834,841,842,843,844,845,846,847,858",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "150,297,45387,45474,45594,45713,45814,45914,46045,46175,46369,47200,47262,47315,47372,47442,47503,47551,48779",
-                        "endLines": "6,13,821,823,825,826,827,829,831,832,834,841,842,843,844,845,846,847,858",
-                        "endColumns": "19,19,86,23,23,100,99,31,31,43,41,61,52,56,69,60,47,57,43",
-                        "endOffsets": "292,545,45469,45589,45708,45809,45909,46040,46170,46214,46406,47257,47310,47367,47437,47498,47546,47604,48818"
                     }
                 },
                 {
@@ -148,25 +129,6 @@
                     }
                 },
                 {
-                    "source": "/home/juanricci/Documents/UM/tif_III/tif_III/android/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "19,22,26",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "764,852,1041",
-                        "endLines": "20,24,28",
-                        "endColumns": "12,12,12",
-                        "endOffsets": "846,1035,1200"
-                    },
-                    "to": {
-                        "startLines": "868,2309,2539",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "49542,143901,160331",
-                        "endLines": "869,2311,2541",
-                        "endColumns": "12,12,12",
-                        "endOffsets": "49624,144084,160490"
-                    }
-                },
-                {
                     "source": "/home/juanricci/.gradle/caches/transforms-3/69a07ee684801f75fb57ff491cc6457b/transformed/jetified-camera-view-1.1.0-beta03/res/values/values.xml",
                     "from": {
                         "startLines": "2,6,14",
@@ -183,6 +145,42 @@
                         "endLines": "136,290,4767",
                         "endColumns": "11,11,24",
                         "endOffsets": "5820,12913,314126"
+                    }
+                },
+                {
+                    "source": "/home/juanricci/Documents/UM/tif_III/tif_III/tlsapp_repo/android/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "42,48,19,21,23,29,30,25,27,17,39,34,37,33,32,35,38,36,40",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2057,2205,771,859,979,1359,1460,1098,1229,726,1970,1688,1869,1631,1561,1750,1922,1811,2012",
+                        "endLines": "46,54,19,22,24,29,30,26,28,17,39,34,37,33,32,35,38,36,40",
+                        "endColumns": "19,19,86,23,23,100,99,31,31,43,41,61,52,56,69,60,47,57,43",
+                        "endOffsets": "2199,2453,853,974,1093,1455,1555,1224,1354,765,2007,1745,1917,1683,1626,1806,1965,1864,2051"
+                    },
+                    "to": {
+                        "startLines": "2,7,821,822,824,826,827,828,830,832,834,841,842,843,844,845,846,847,858",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "150,297,45387,45474,45594,45713,45814,45914,46045,46175,46369,47200,47262,47315,47372,47442,47503,47551,48779",
+                        "endLines": "6,13,821,823,825,826,827,829,831,832,834,841,842,843,844,845,846,847,858",
+                        "endColumns": "19,19,86,23,23,100,99,31,31,43,41,61,52,56,69,60,47,57,43",
+                        "endOffsets": "292,545,45469,45589,45708,45809,45909,46040,46170,46214,46406,47257,47310,47367,47437,47498,47546,47604,48818"
+                    }
+                },
+                {
+                    "source": "/home/juanricci/Documents/UM/tif_III/tif_III/tlsapp_repo/android/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "27,22,23,19,24,25,26,21,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1175,922,980,759,1038,1083,1129,865,812",
+                        "endColumns": "46,57,57,52,44,45,45,56,52",
+                        "endOffsets": "1217,975,1033,807,1078,1124,1170,917,860"
+                    },
+                    "to": {
+                        "startLines": "362,367,368,369,403,404,405,406,447",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "16431,16797,16855,16913,19300,19345,19391,19437,22135",
+                        "endColumns": "46,57,57,52,44,45,45,56,52",
+                        "endOffsets": "16473,16850,16908,16961,19340,19386,19432,19489,22183"
                     }
                 },
                 {
@@ -423,6 +421,25 @@
                     }
                 },
                 {
+                    "source": "/home/juanricci/Documents/UM/tif_III/tif_III/tlsapp_repo/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "19,22,26",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "764,852,1041",
+                        "endLines": "20,24,28",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "846,1035,1200"
+                    },
+                    "to": {
+                        "startLines": "868,2309,2539",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "49542,143901,160331",
+                        "endLines": "869,2311,2541",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "49624,144084,160490"
+                    }
+                },
+                {
                     "source": "/home/juanricci/.gradle/caches/transforms-3/f5ff149b3fef40ba09483d62b50496fe/transformed/navigation-fragment-2.3.5/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,6,9",
@@ -458,23 +475,6 @@
                         "endLines": "3416,3423,3434,4883,4888",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "217989,218374,218971,321220,321490"
-                    }
-                },
-                {
-                    "source": "/home/juanricci/Documents/UM/tif_III/tif_III/android/app/src/main/res/values/dimens.xml",
-                    "from": {
-                        "startLines": "26,27,25,23,24,28,29,22,19,18,31",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "1073,1134,1010,902,954,1203,1275,848,770,727,1345",
-                        "endColumns": "60,68,62,51,55,71,68,53,50,42,65",
-                        "endOffsets": "1129,1198,1068,949,1005,1270,1339,897,816,765,1406"
-                    },
-                    "to": {
-                        "startLines": "531,532,533,534,535,536,537,538,672,673,780",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "27758,27819,27888,27951,28003,28059,28131,28200,36766,36817,42659",
-                        "endColumns": "60,68,62,51,55,71,68,53,50,42,65",
-                        "endOffsets": "27814,27883,27946,27998,28054,28126,28195,28249,36812,36855,42720"
                     }
                 }
             ]

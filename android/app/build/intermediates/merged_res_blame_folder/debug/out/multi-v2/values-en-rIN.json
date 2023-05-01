@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/juanricci/Documents/UM/tif_III/tif_III/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rIN/values-en-rIN.xml",
+            "outputFile": "/home/juanricci/Documents/UM/tif_III/tif_III/tlsapp_repo/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rIN/values-en-rIN.xml",
             "map": [
                 {
                     "source": "/home/juanricci/.gradle/caches/transforms-3/c6805e35222e8ed9e5fcb2d0220b387d/transformed/core-1.6.0/res/values-en-rIN/values-en-rIN.xml",

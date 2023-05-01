@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/juanricci/Documents/UM/tif_III/tif_III/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hu/values-hu.xml",
+            "outputFile": "/home/juanricci/Documents/UM/tif_III/tif_III/tlsapp_repo/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hu/values-hu.xml",
             "map": [
                 {
                     "source": "/home/juanricci/.gradle/caches/transforms-3/5babfe919ab855111603c29774482c4a/transformed/navigation-ui-2.3.5/res/values-hu/values-hu.xml",
