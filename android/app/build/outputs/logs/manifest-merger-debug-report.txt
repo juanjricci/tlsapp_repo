@@ -145,7 +145,7 @@ MERGED from [com.google.android.odml:image:1.0.0-beta1] /home/juanricci/.gradle/
 	tools:ignore
 		ADDED from /home/juanricci/Documents/UM/tif_III/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:38:9-35
 	android:roundIcon
-		ADDED from /home/juanricci/Documents/UM/tif_III/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:34:9-54
+		ADDED from /home/juanricci/Documents/UM/tif_III/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:34:9-52
 	android:icon
 		ADDED from /home/juanricci/Documents/UM/tif_III/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:33:9-43
 	android:allowBackup

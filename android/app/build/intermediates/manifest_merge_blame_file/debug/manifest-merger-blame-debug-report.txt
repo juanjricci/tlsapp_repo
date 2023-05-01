@@ -55,8 +55,8 @@
 43-->/home/juanricci/Documents/UM/tif_III/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:33:9-43
 44        android:label="@string/app_name"
 44-->/home/juanricci/Documents/UM/tif_III/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:35:9-41
-45        android:roundIcon="@mipmap/ic_launcher_round"
-45-->/home/juanricci/Documents/UM/tif_III/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:34:9-54
+45        android:roundIcon="@mipmap/ic_tlsapp_round"
+45-->/home/juanricci/Documents/UM/tif_III/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:34:9-52
 46        android:taskAffinity=""
 46-->/home/juanricci/Documents/UM/tif_III/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:37:9-32
 47        android:testOnly="true" >
