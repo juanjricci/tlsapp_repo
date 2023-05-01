@@ -38,7 +38,7 @@
         tools:ignore="AllowBackup">
 
         <activity
-            android:name=".MainActivity"
+            android:name=".AdvertActivity"
             android:clearTaskOnLaunch="true"
             android:theme="@style/SplashTheme"
             android:exported="true"
@@ -58,6 +58,8 @@
             <meta-data android:name="android.notch_support" android:value="true"/>
 
         </activity>
+
+        <activity android:name=".MainActivity"/>
 
     </application>
 

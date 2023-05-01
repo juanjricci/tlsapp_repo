@@ -1241,6 +1241,7 @@ int drawable mtrl_snackbar_background 0x7f08006e
 int drawable mtrl_tabs_default_indicator 0x7f08006f
 int drawable navigation_empty_icon 0x7f080070
 int drawable new_tlsapp_logo 0x7f080071
+int drawable nota 0x7f080084
 int drawable notification_action_background 0x7f080072
 int drawable notification_bg 0x7f080073
 int drawable notification_bg_low 0x7f080074
@@ -1454,6 +1455,7 @@ int id line3 0x7f0900bf
 int id linear 0x7f0900c0
 int id listMode 0x7f0900c1
 int id list_item 0x7f0900c2
+int id logo 0x7f090169
 int id masked 0x7f0900c3
 int id max_results_minus 0x7f0900c4
 int id max_results_plus 0x7f0900c5
@@ -1530,6 +1532,7 @@ int id showCustom 0x7f09010b
 int id showHome 0x7f09010c
 int id showTitle 0x7f09010d
 int id sin 0x7f09010e
+int id slogan 0x7f09016a
 int id smallLabel 0x7f09010f
 int id snackbar_action 0x7f090110
 int id snackbar_text 0x7f090111
@@ -1551,6 +1554,7 @@ int id standard 0x7f090120
 int id start 0x7f090121
 int id startHorizontal 0x7f090122
 int id startVertical 0x7f090123
+int id start_button 0x7f090168
 int id staticLayout 0x7f090124
 int id staticPostLayout 0x7f090125
 int id stop 0x7f090126
@@ -1675,6 +1679,7 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0c0018
 int layout abc_search_view 0x7f0c0019
 int layout abc_select_dialog_material 0x7f0c001a
 int layout abc_tooltip 0x7f0c001b
+int layout activity_advert 0x7f0c003a
 int layout activity_main 0x7f0c001c
 int layout custom_dialog 0x7f0c001d
 int layout design_bottom_navigation_item 0x7f0c001e

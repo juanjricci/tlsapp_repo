@@ -1242,6 +1242,7 @@ drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
 drawable new_tlsapp_logo
+drawable nota
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -1455,6 +1456,7 @@ id line3
 id linear
 id listMode
 id list_item
+id logo
 id masked
 id max_results_minus
 id max_results_plus
@@ -1531,6 +1533,7 @@ id showCustom
 id showHome
 id showTitle
 id sin
+id slogan
 id smallLabel
 id snackbar_action
 id snackbar_text
@@ -1552,6 +1555,7 @@ id standard
 id start
 id startHorizontal
 id startVertical
+id start_button
 id staticLayout
 id staticPostLayout
 id stop
@@ -1676,6 +1680,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_advert
 layout activity_main
 layout custom_dialog
 layout design_bottom_navigation_item

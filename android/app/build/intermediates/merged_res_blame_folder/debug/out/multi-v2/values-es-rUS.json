@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/juanricci/Documents/UM/tif_III/tif_III/tlsapp_repo/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rUS/values-es-rUS.xml",
+            "outputFile": "/home/juanricci/Documents/UM/tif_III/tlsapp/tlsapp_repo/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rUS/values-es-rUS.xml",
             "map": [
                 {
                     "source": "/home/juanricci/.gradle/caches/transforms-3/d6611a22cd6a64625047b531b6a3eaa6/transformed/appcompat-1.3.1/res/values-es-rUS/values-es-rUS.xml",
