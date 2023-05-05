@@ -116,7 +116,7 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
         initButtons()
     }
 
-    // inicializo el boton para llamar a la funcion de borrado en overlayView
+    // inicializo los botones en overlayView
     private fun initButtons() {
         // when clicked, calls the clearDetectedSigns() function in OverlayView
         fragmentCameraBinding.borrar.setOnClickListener {

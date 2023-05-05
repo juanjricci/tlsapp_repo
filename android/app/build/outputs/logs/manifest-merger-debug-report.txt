@@ -8,6 +8,7 @@ MERGED from [androidx.databinding:databinding-adapters:7.1.2] /home/juanricci/.g
 MERGED from [androidx.databinding:databinding-ktx:7.1.2] /home/juanricci/.gradle/caches/transforms-3/551061d85361cc277ff8374ee3653efb/transformed/jetified-databinding-ktx-7.1.2/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:7.1.2] /home/juanricci/.gradle/caches/transforms-3/1ea760510c7abe09389344a9593ba954/transformed/databinding-runtime-7.1.2/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:viewbinding:7.1.2] /home/juanricci/.gradle/caches/transforms-3/b2ce33b9fad788de74bd2ad48c46a9eb/transformed/jetified-viewbinding-7.1.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-splashscreen:1.0.0-beta02] /home/juanricci/.gradle/caches/transforms-3/7792efa28b256a3c929a90d353efd03c/transformed/jetified-core-splashscreen-1.0.0-beta02/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /home/juanricci/.gradle/caches/transforms-3/47cbcae466a0b4754e730d3c45127d8a/transformed/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment-ktx:1.2.4] /home/juanricci/.gradle/caches/transforms-3/b59b3bc32322ea7777be87cef3f5b530/transformed/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /home/juanricci/.gradle/caches/transforms-3/d52bade5acc4122e6886c666941e6b2f/transformed/navigation-ui-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
@@ -204,6 +205,8 @@ MERGED from [androidx.databinding:databinding-runtime:7.1.2] /home/juanricci/.gr
 MERGED from [androidx.databinding:databinding-runtime:7.1.2] /home/juanricci/.gradle/caches/transforms-3/1ea760510c7abe09389344a9593ba954/transformed/databinding-runtime-7.1.2/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.databinding:viewbinding:7.1.2] /home/juanricci/.gradle/caches/transforms-3/b2ce33b9fad788de74bd2ad48c46a9eb/transformed/jetified-viewbinding-7.1.2/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.databinding:viewbinding:7.1.2] /home/juanricci/.gradle/caches/transforms-3/b2ce33b9fad788de74bd2ad48c46a9eb/transformed/jetified-viewbinding-7.1.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-splashscreen:1.0.0-beta02] /home/juanricci/.gradle/caches/transforms-3/7792efa28b256a3c929a90d353efd03c/transformed/jetified-core-splashscreen-1.0.0-beta02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-splashscreen:1.0.0-beta02] /home/juanricci/.gradle/caches/transforms-3/7792efa28b256a3c929a90d353efd03c/transformed/jetified-core-splashscreen-1.0.0-beta02/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /home/juanricci/.gradle/caches/transforms-3/47cbcae466a0b4754e730d3c45127d8a/transformed/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /home/juanricci/.gradle/caches/transforms-3/47cbcae466a0b4754e730d3c45127d8a/transformed/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment-ktx:1.2.4] /home/juanricci/.gradle/caches/transforms-3/b59b3bc32322ea7777be87cef3f5b530/transformed/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41

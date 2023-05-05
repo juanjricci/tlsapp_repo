@@ -36,30 +36,8 @@
         android:keepScreenOn="true"
         app:defaultNavHost="true"
         app:navGraph="@navigation/nav_graph"
-        android:layout_marginTop="?android:attr/actionBarSize"
         tools:context=".MainActivity"
         tools:layout="@layout/fragment_camera" />
-
-
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?android:attr/actionBarSize"
-            android:layout_alignParentTop="true"
-            android:background="@color/toolbar_background">
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:contentDescription="@string/toolbar"
-                android:src="@drawable/tlsapp_logo_blanco" />
-        </androidx.appcompat.widget.Toolbar>
-
-
-
-
-
-
-
 
 
     </RelativeLayout>

@@ -158,7 +158,9 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
     }
 
     fun clearDetectedSigns() {
-        detectedSigns = ""
+        val lastletter = detectedSigns.takeLast(1)
+        val wo_last = detectedSigns.removeSuffix(lastletter)
+        detectedSigns = wo_last
         invalidate()
     }
 
