@@ -48,14 +48,36 @@
             android:id="@+id/espacio"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
             android:text="Espacio" />
 
+        <!--
         <Button
             android:id="@+id/borrar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="10dp"
             android:text="Borrar" />
+        -->
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:gravity="end"
+        android:layout_marginBottom="50dp">
+
+        <ImageButton
+            android:id="@+id/borrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            app:srcCompat="@android:drawable/ic_input_delete" />
 
     </LinearLayout>
 
