@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.camera.view.PreviewView;
@@ -22,7 +23,7 @@ public final class FragmentCameraBinding implements ViewBinding {
   private final CoordinatorLayout rootView;
 
   @NonNull
-  public final Button borrar;
+  public final ImageButton borrar;
 
   @NonNull
   public final InfoBottomSheetBinding bottomSheetLayout;
@@ -39,7 +40,7 @@ public final class FragmentCameraBinding implements ViewBinding {
   @NonNull
   public final PreviewView viewFinder;
 
-  private FragmentCameraBinding(@NonNull CoordinatorLayout rootView, @NonNull Button borrar,
+  private FragmentCameraBinding(@NonNull CoordinatorLayout rootView, @NonNull ImageButton borrar,
       @NonNull InfoBottomSheetBinding bottomSheetLayout, @NonNull CoordinatorLayout cameraContainer,
       @NonNull Button espacio, @NonNull OverlayView overlay, @NonNull PreviewView viewFinder) {
     this.rootView = rootView;
@@ -79,7 +80,7 @@ public final class FragmentCameraBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.borrar;
-      Button borrar = ViewBindings.findChildViewById(rootView, id);
+      ImageButton borrar = ViewBindings.findChildViewById(rootView, id);
       if (borrar == null) {
         break missingId;
       }

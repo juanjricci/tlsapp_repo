@@ -16,10 +16,12 @@
 package org.tensorflow.lite.examples.objectdetection.fragments
 
 import android.annotation.SuppressLint
+import android.content.Context
 import android.content.res.Configuration
 import android.graphics.Bitmap
 import android.os.Bundle
 import android.util.Log
+import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -88,6 +90,10 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
       container: ViewGroup?,
       savedInstanceState: Bundle?
     ): View {
+        val toast = Toast.makeText(this.context,"Enfoque a quien va a realizar las señas",
+            Toast.LENGTH_LONG)
+        toast.setGravity(Gravity.TOP, 0, 0)
+        toast.show()
         _fragmentCameraBinding = FragmentCameraBinding.inflate(inflater, container, false)
 
         return fragmentCameraBinding.root
