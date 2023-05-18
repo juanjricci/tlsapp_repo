@@ -125,7 +125,7 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
             // Verifico que la nueva letra sea distinta a la anterior, así no se escriben múltiples veces
             val newSign = label
             if (detected == false){
-                if (score > 0.80){
+                if (score > 0.90){
                     detected = true
                     detectedSigns += newSign
                 }
