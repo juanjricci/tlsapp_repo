@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/juanricci/Documents/UM/tif_III/tlsapp/tlsapp_repo/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml",
+            "outputFile": "/home/juanricci/Documents/UM/tif_III/tlsapp_repo/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml",
             "map": [
                 {
                     "source": "/home/juanricci/.gradle/caches/transforms-3/5babfe919ab855111603c29774482c4a/transformed/navigation-ui-2.3.5/res/values-zh-rCN/values-zh-rCN.xml",

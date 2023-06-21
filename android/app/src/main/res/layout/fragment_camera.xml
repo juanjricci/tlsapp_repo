@@ -27,6 +27,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:scaleType="fillStart">
+
+
     </androidx.camera.view.PreviewView>
 
     <org.tensorflow.lite.examples.objectdetection.OverlayView
@@ -45,12 +47,12 @@
         android:gravity="end"
         android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/espacio"
+        <ImageButton
+            android:id="@+id/delete"
+            android:layout_marginEnd="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="10dp"
-            android:text="Espacio" />
+            app:srcCompat="@android:drawable/ic_menu_delete" />
 
         <!--
         <Button
@@ -67,14 +69,15 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:layout_height="100dp"
         android:layout_gravity="bottom"
+        android:layout_marginBottom="0dp"
         android:gravity="end"
-        android:layout_marginBottom="50dp">
+        android:orientation="horizontal">
 
         <ImageButton
             android:id="@+id/borrar"
+            android:layout_marginTop="0dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="10dp"
@@ -82,6 +85,7 @@
             tools:ignore="SpeakableTextPresentCheck" />
 
     </LinearLayout>
+
 
 
     <include

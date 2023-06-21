@@ -1392,6 +1392,7 @@ int id decelerate 0x7f090070
 int id decelerateAndComplete 0x7f090071
 int id decor_content_parent 0x7f090072
 int id default_activity_button 0x7f090073
+int id delete 0x7f09016d
 int id deltaRelative 0x7f090074
 int id dependency_ordering 0x7f090075
 int id design_bottom_sheet 0x7f090076
@@ -1418,7 +1419,6 @@ int id edit_query 0x7f09008a
 int id end 0x7f09008b
 int id enterAlways 0x7f09008c
 int id enterAlwaysCollapsed 0x7f09008d
-int id espacio 0x7f09008e
 int id exitUntilCollapsed 0x7f09008f
 int id expand_activities_button 0x7f090090
 int id expanded_menu 0x7f090091
@@ -1800,6 +1800,7 @@ int string path_password_strike_through 0x7f0f0039
 int string search_menu_title 0x7f0f003a
 int string status_bar_notification_info_overflow 0x7f0f003b
 int string toolbar 0x7f0f003c
+int string words 0x7f0f003d
 int style AlertDialog_AppCompat 0x7f100000
 int style AlertDialog_AppCompat_Light 0x7f100001
 int style Animation_AppCompat_Dialog 0x7f100002

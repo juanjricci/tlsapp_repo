@@ -1,0 +1,59 @@
+import cv2
+import uuid
+import numpy as np
+import os
+
+
+# Definir el nombre base para las imágenes
+nombre_base = input("Ingrese el nombre del gesto: ")
+
+# Definir el número de imágenes que se tomarán para cada nombre
+num_imagenes_por_nombre = 15
+
+# Definir el número de nombres diferentes que se utilizarán
+num_nombres_diferentes = 27 #27
+#123456789
+#abcdefghi
+#0123456789
+#jklmnñopqr
+#01234567
+#stuvwxyz
+
+# Inicializar la cámara
+camara = cv2.VideoCapture(0)
+
+# Iterar a través de los nombres diferentes
+for i in range(num_nombres_diferentes):
+    
+    # Iterar a través del número de imágenes por nombre
+    for j in range(num_imagenes_por_nombre):
+        # Esperar a que se presione la barra espaciadora
+        while True:
+            # Capturar un cuadro de video
+            ret, cuadro = camara.read()
+            image_np = cv2.flip(np.array(cuadro), 1)
+
+            # Mostrar el cuadro de video en una ventana
+            cv2.imshow('Presione la barra espaciadora para tomar una foto', cuadro)
+
+            # Esperar la pulsación de la barra espaciadora
+            if cv2.waitKey(1) & 0xFF == ord(' '):
+                break
+
+        # Generar un UUID para la imagen
+        id_unica = str(uuid.uuid4())
+
+        path = f"collected_images/Derecha/{nombre_base}"
+
+        if not os.path.exists(path):
+            os.makedirs(path)
+
+        # Guardar la imagen con el nombre formato <nombre.uuid>
+        cv2.imwrite(f"{path}/{nombre_base}.{id_unica}.jpg", cuadro)
+
+    # Cambiar el nombre base para el siguiente conjunto de imágenes
+    nombre_base = input("Ingrese el nombre del gesto: ")
+    
+# Liberar la cámara y cerrar todas las ventanas
+camara.release()
+cv2.destroyAllWindows()

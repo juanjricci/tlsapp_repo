@@ -39,10 +39,12 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
 
     private var label = ""
     private var score = 0.1f
+    //var words = mutableListOf<String>()
 
     var detectedSigns = ""
+    var second_line = ""
     private var detected = false
-
+    private var lastLetter = ""
 
 
 
@@ -121,27 +123,45 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
             canvas.drawText(drawableText, left, top + bounds.height(), textPaint)
 
             // Tomo la última letra del string q se está formando
-            val lastLetter = detectedSigns.takeLast(1)
+            lastLetter = detectedSigns.takeLast(1)
+            if (second_line.isNotEmpty()){
+                lastLetter = second_line.takeLast(1)
+            }
             // Verifico que la nueva letra sea distinta a la anterior, así no se escriben múltiples veces
             val newSign = label
             if (detected == false){
-                if (score > 0.90){
-                    detected = true
-                    detectedSigns += newSign
+                if (score > 0.80){
+                    if (second_line.length == 13) {
+                        clearAll()
+                    }
+                    if (newSign == "ESPACIO"){
+                        detected = true
+                        detectedSigns += " "
+                    }
+                    else {
+                        if (detectedSigns.length >= 13){
+                            detected = true
+                            second_line += newSign
+                        }
+                        else {
+                            detected = true
+                            detectedSigns += newSign
+                        }
+                    }
                 }
             } else {
-                if (score < 0.60 || (newSign != lastLetter) ) {
+                if (score < 0.50 || (newSign != lastLetter) ) {
                     detected = false
                 }
             }
-
         }
 
         // Dibujo otro rectángulo al final del canvas
-        canvas.drawRect(0f, height - 265f, width.toFloat(), height - 100f, textBackgroundPaint)
+        canvas.drawRect(0f, height - 365f, width.toFloat(), height - 100f, textBackgroundPaint)
 
         // Escribo en pantalla el string formado con las detecciones
-        canvas.drawText(detectedSigns, 50f, height - 150f, textPaint)
+        canvas.drawText(detectedSigns, 50f, height - 250f, textPaint)
+        canvas.drawText(second_line, 50f, height - 150f, textPaint)
 
     }
 
@@ -158,14 +178,22 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
     }
 
     fun clearDetectedSigns() {
-        val lastletter = detectedSigns.takeLast(1)
-        val wo_last = detectedSigns.removeSuffix(lastletter)
-        detectedSigns = wo_last
+        if (second_line.isEmpty()){
+            val lastletter = detectedSigns.takeLast(1)
+            val wo_last = detectedSigns.removeSuffix(lastletter)
+            detectedSigns = wo_last
+        }
+        else {
+            val lastletter = second_line.takeLast(1)
+            val wo_last = second_line.removeSuffix(lastletter)
+            second_line = wo_last
+        }
         invalidate()
     }
 
-    fun spaceInput() {
-        detectedSigns += " "
+    fun clearAll() {
+        detectedSigns = ""
+        second_line = ""
         invalidate()
     }
 

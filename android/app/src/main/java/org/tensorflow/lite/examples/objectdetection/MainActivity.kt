@@ -27,8 +27,6 @@ import org.tensorflow.lite.examples.objectdetection.databinding.ActivityMainBind
  */
 class MainActivity : AppCompatActivity() {
 
-
-
     private lateinit var activityMainBinding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {

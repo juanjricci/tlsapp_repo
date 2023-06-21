@@ -9,12 +9,12 @@ public final class ObjectDetectorHelper {
     private int maxResults;
     private int currentDelegate;
     private int currentModel;
-    @org.jetbrains.annotations.NotNull()
+    @org.jetbrains.annotations.NotNull
     private final android.content.Context context = null;
-    @org.jetbrains.annotations.Nullable()
+    @org.jetbrains.annotations.Nullable
     private final org.tensorflow.lite.examples.objectdetection.ObjectDetectorHelper.DetectorListener objectDetectorListener = null;
     private org.tensorflow.lite.task.vision.detector.ObjectDetector objectDetector;
-    @org.jetbrains.annotations.NotNull()
+    @org.jetbrains.annotations.NotNull
     public static final org.tensorflow.lite.examples.objectdetection.ObjectDetectorHelper.Companion Companion = null;
     public static final int DELEGATE_CPU = 0;
     public static final int DELEGATE_GPU = 1;
@@ -25,8 +25,8 @@ public final class ObjectDetectorHelper {
     public static final int MODEL_EFFICIENTDETV2 = 3;
     public static final int MODEL_MOBILENETV1 = 4;
     
-    public ObjectDetectorHelper(float threshold, int numThreads, int maxResults, int currentDelegate, int currentModel, @org.jetbrains.annotations.NotNull()
-    android.content.Context context, @org.jetbrains.annotations.Nullable()
+    public ObjectDetectorHelper(float threshold, int numThreads, int maxResults, int currentDelegate, int currentModel, @org.jetbrains.annotations.NotNull
+    android.content.Context context, @org.jetbrains.annotations.Nullable
     org.tensorflow.lite.examples.objectdetection.ObjectDetectorHelper.DetectorListener objectDetectorListener) {
         super();
     }
@@ -66,12 +66,12 @@ public final class ObjectDetectorHelper {
     public final void setCurrentModel(int p0) {
     }
     
-    @org.jetbrains.annotations.NotNull()
+    @org.jetbrains.annotations.NotNull
     public final android.content.Context getContext() {
         return null;
     }
     
-    @org.jetbrains.annotations.Nullable()
+    @org.jetbrains.annotations.Nullable
     public final org.tensorflow.lite.examples.objectdetection.ObjectDetectorHelper.DetectorListener getObjectDetectorListener() {
         return null;
     }
@@ -82,17 +82,17 @@ public final class ObjectDetectorHelper {
     public final void setupObjectDetector() {
     }
     
-    public final void detect(@org.jetbrains.annotations.NotNull()
+    public final void detect(@org.jetbrains.annotations.NotNull
     android.graphics.Bitmap image, int imageRotation) {
     }
     
     @kotlin.Metadata(mv = {1, 6, 0}, k = 1, d1 = {"\u00000\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0010\u000e\n\u0002\b\u0002\n\u0002\u0010!\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\t\n\u0000\n\u0002\u0010\b\n\u0002\b\u0002\bf\u0018\u00002\u00020\u0001J\u0010\u0010\u0002\u001a\u00020\u00032\u0006\u0010\u0004\u001a\u00020\u0005H&J0\u0010\u0006\u001a\u00020\u00032\u000e\u0010\u0007\u001a\n\u0012\u0004\u0012\u00020\t\u0018\u00010\b2\u0006\u0010\n\u001a\u00020\u000b2\u0006\u0010\f\u001a\u00020\r2\u0006\u0010\u000e\u001a\u00020\rH&\u00a8\u0006\u000f"}, d2 = {"Lorg/tensorflow/lite/examples/objectdetection/ObjectDetectorHelper$DetectorListener;", "", "onError", "", "error", "", "onResults", "results", "", "Lorg/tensorflow/lite/task/vision/detector/Detection;", "inferenceTime", "", "imageHeight", "", "imageWidth", "app_debug"})
     public static abstract interface DetectorListener {
         
-        public abstract void onError(@org.jetbrains.annotations.NotNull()
+        public abstract void onError(@org.jetbrains.annotations.NotNull
         java.lang.String error);
         
-        public abstract void onResults(@org.jetbrains.annotations.Nullable()
+        public abstract void onResults(@org.jetbrains.annotations.Nullable
         java.util.List<org.tensorflow.lite.task.vision.detector.Detection> results, long inferenceTime, int imageHeight, int imageWidth);
     }
     

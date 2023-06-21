@@ -4,7 +4,6 @@ package org.tensorflow.lite.examples.objectdetection.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageButton;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -32,7 +31,7 @@ public final class FragmentCameraBinding implements ViewBinding {
   public final CoordinatorLayout cameraContainer;
 
   @NonNull
-  public final Button espacio;
+  public final ImageButton delete;
 
   @NonNull
   public final OverlayView overlay;
@@ -42,12 +41,12 @@ public final class FragmentCameraBinding implements ViewBinding {
 
   private FragmentCameraBinding(@NonNull CoordinatorLayout rootView, @NonNull ImageButton borrar,
       @NonNull InfoBottomSheetBinding bottomSheetLayout, @NonNull CoordinatorLayout cameraContainer,
-      @NonNull Button espacio, @NonNull OverlayView overlay, @NonNull PreviewView viewFinder) {
+      @NonNull ImageButton delete, @NonNull OverlayView overlay, @NonNull PreviewView viewFinder) {
     this.rootView = rootView;
     this.borrar = borrar;
     this.bottomSheetLayout = bottomSheetLayout;
     this.cameraContainer = cameraContainer;
-    this.espacio = espacio;
+    this.delete = delete;
     this.overlay = overlay;
     this.viewFinder = viewFinder;
   }
@@ -94,9 +93,9 @@ public final class FragmentCameraBinding implements ViewBinding {
 
       CoordinatorLayout cameraContainer = (CoordinatorLayout) rootView;
 
-      id = R.id.espacio;
-      Button espacio = ViewBindings.findChildViewById(rootView, id);
-      if (espacio == null) {
+      id = R.id.delete;
+      ImageButton delete = ViewBindings.findChildViewById(rootView, id);
+      if (delete == null) {
         break missingId;
       }
 
@@ -113,7 +112,7 @@ public final class FragmentCameraBinding implements ViewBinding {
       }
 
       return new FragmentCameraBinding((CoordinatorLayout) rootView, borrar,
-          binding_bottomSheetLayout, cameraContainer, espacio, overlay, viewFinder);
+          binding_bottomSheetLayout, cameraContainer, delete, overlay, viewFinder);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

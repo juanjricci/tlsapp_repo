@@ -14,12 +14,12 @@ public final class MainActivity extends androidx.appcompat.app.AppCompatActivity
         super();
     }
     
-    @java.lang.Override()
-    protected void onCreate(@org.jetbrains.annotations.Nullable()
+    @java.lang.Override
+    protected void onCreate(@org.jetbrains.annotations.Nullable
     android.os.Bundle savedInstanceState) {
     }
     
-    @java.lang.Override()
+    @java.lang.Override
     public void onBackPressed() {
     }
 }

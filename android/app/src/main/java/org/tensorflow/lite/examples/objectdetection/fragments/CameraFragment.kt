@@ -16,7 +16,6 @@
 package org.tensorflow.lite.examples.objectdetection.fragments
 
 import android.annotation.SuppressLint
-import android.content.Context
 import android.content.res.Configuration
 import android.graphics.Bitmap
 import android.os.Bundle
@@ -129,8 +128,8 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
             fragmentCameraBinding.overlay.clearDetectedSigns()
         }
 
-        fragmentCameraBinding.espacio.setOnClickListener {
-            fragmentCameraBinding.overlay.spaceInput()
+        fragmentCameraBinding.delete.setOnClickListener {
+            fragmentCameraBinding.overlay.clearAll()
         }
     }
 

@@ -22,86 +22,86 @@
 22
 23    <uses-sdk
 24        android:minSdkVersion="21"
-24-->/home/juanricci/Documents/UM/tif_III/tlsapp/tlsapp_repo/android/app/src/main/AndroidManifest.xml
+24-->/home/juanricci/Documents/UM/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml
 25        android:targetSdkVersion="32" />
-25-->/home/juanricci/Documents/UM/tif_III/tlsapp/tlsapp_repo/android/app/src/main/AndroidManifest.xml
+25-->/home/juanricci/Documents/UM/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml
 26
 27    <!-- Enable instant app support -->
 28    <dist:module dist:instant="true" />
-28-->/home/juanricci/Documents/UM/tif_III/tlsapp/tlsapp_repo/android/app/src/main/AndroidManifest.xml:24:5-40
-28-->/home/juanricci/Documents/UM/tif_III/tlsapp/tlsapp_repo/android/app/src/main/AndroidManifest.xml:24:18-37
+28-->/home/juanricci/Documents/UM/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:24:5-40
+28-->/home/juanricci/Documents/UM/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:24:18-37
 29
 30    <!-- Declare features -->
 31    <uses-feature android:name="android.hardware.camera" />
-31-->/home/juanricci/Documents/UM/tif_III/tlsapp/tlsapp_repo/android/app/src/main/AndroidManifest.xml:27:5-60
-31-->/home/juanricci/Documents/UM/tif_III/tlsapp/tlsapp_repo/android/app/src/main/AndroidManifest.xml:27:19-57
+31-->/home/juanricci/Documents/UM/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:27:5-60
+31-->/home/juanricci/Documents/UM/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:27:19-57
 32
 33    <!-- Declare permissions -->
 34    <uses-permission android:name="android.permission.CAMERA" />
-34-->/home/juanricci/Documents/UM/tif_III/tlsapp/tlsapp_repo/android/app/src/main/AndroidManifest.xml:30:5-65
-34-->/home/juanricci/Documents/UM/tif_III/tlsapp/tlsapp_repo/android/app/src/main/AndroidManifest.xml:30:22-62
+34-->/home/juanricci/Documents/UM/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:30:5-65
+34-->/home/juanricci/Documents/UM/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:30:22-62
 35    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 36    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 37    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 38
 39    <application
-39-->/home/juanricci/Documents/UM/tif_III/tlsapp/tlsapp_repo/android/app/src/main/AndroidManifest.xml:32:5-64:19
+39-->/home/juanricci/Documents/UM/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:32:5-64:19
 40        android:allowBackup="true"
-40-->/home/juanricci/Documents/UM/tif_III/tlsapp/tlsapp_repo/android/app/src/main/AndroidManifest.xml:36:9-35
+40-->/home/juanricci/Documents/UM/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:36:9-35
 41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 41-->[androidx.core:core:1.6.0] /home/juanricci/.gradle/caches/transforms-3/c6805e35222e8ed9e5fcb2d0220b387d/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
 42        android:debuggable="true"
 43        android:icon="@mipmap/ic_launcher"
-43-->/home/juanricci/Documents/UM/tif_III/tlsapp/tlsapp_repo/android/app/src/main/AndroidManifest.xml:33:9-43
+43-->/home/juanricci/Documents/UM/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:33:9-43
 44        android:label="@string/app_name"
-44-->/home/juanricci/Documents/UM/tif_III/tlsapp/tlsapp_repo/android/app/src/main/AndroidManifest.xml:35:9-41
+44-->/home/juanricci/Documents/UM/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:35:9-41
 45        android:roundIcon="@mipmap/ic_tlsapp_round"
-45-->/home/juanricci/Documents/UM/tif_III/tlsapp/tlsapp_repo/android/app/src/main/AndroidManifest.xml:34:9-52
+45-->/home/juanricci/Documents/UM/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:34:9-52
 46        android:taskAffinity=""
-46-->/home/juanricci/Documents/UM/tif_III/tlsapp/tlsapp_repo/android/app/src/main/AndroidManifest.xml:37:9-32
+46-->/home/juanricci/Documents/UM/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:37:9-32
 47        android:testOnly="true" >
 48        <activity
-48-->/home/juanricci/Documents/UM/tif_III/tlsapp/tlsapp_repo/android/app/src/main/AndroidManifest.xml:40:9-60:20
+48-->/home/juanricci/Documents/UM/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:40:9-60:20
 49            android:name="org.tensorflow.lite.examples.objectdetection.AdvertActivity"
-49-->/home/juanricci/Documents/UM/tif_III/tlsapp/tlsapp_repo/android/app/src/main/AndroidManifest.xml:41:13-43
+49-->/home/juanricci/Documents/UM/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:41:13-43
 50            android:clearTaskOnLaunch="true"
-50-->/home/juanricci/Documents/UM/tif_III/tlsapp/tlsapp_repo/android/app/src/main/AndroidManifest.xml:42:13-45
+50-->/home/juanricci/Documents/UM/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:42:13-45
 51            android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize"
-51-->/home/juanricci/Documents/UM/tif_III/tlsapp/tlsapp_repo/android/app/src/main/AndroidManifest.xml:48:13-91
+51-->/home/juanricci/Documents/UM/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:48:13-91
 52            android:exported="true"
-52-->/home/juanricci/Documents/UM/tif_III/tlsapp/tlsapp_repo/android/app/src/main/AndroidManifest.xml:44:13-36
+52-->/home/juanricci/Documents/UM/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:44:13-36
 53            android:icon="@mipmap/ic_launcher"
-53-->/home/juanricci/Documents/UM/tif_III/tlsapp/tlsapp_repo/android/app/src/main/AndroidManifest.xml:45:13-47
+53-->/home/juanricci/Documents/UM/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:45:13-47
 54            android:resizeableActivity="true"
-54-->/home/juanricci/Documents/UM/tif_III/tlsapp/tlsapp_repo/android/app/src/main/AndroidManifest.xml:47:13-46
+54-->/home/juanricci/Documents/UM/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:47:13-46
 55            android:rotationAnimation="seamless"
-55-->/home/juanricci/Documents/UM/tif_III/tlsapp/tlsapp_repo/android/app/src/main/AndroidManifest.xml:46:13-49
+55-->/home/juanricci/Documents/UM/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:46:13-49
 56            android:theme="@style/SplashTheme" >
-56-->/home/juanricci/Documents/UM/tif_III/tlsapp/tlsapp_repo/android/app/src/main/AndroidManifest.xml:43:13-47
+56-->/home/juanricci/Documents/UM/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:43:13-47
 57
 58            <!-- Main app intent filter -->
 59            <intent-filter>
-59-->/home/juanricci/Documents/UM/tif_III/tlsapp/tlsapp_repo/android/app/src/main/AndroidManifest.xml:52:13-55:29
+59-->/home/juanricci/Documents/UM/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:52:13-55:29
 60                <action android:name="android.intent.action.MAIN" />
-60-->/home/juanricci/Documents/UM/tif_III/tlsapp/tlsapp_repo/android/app/src/main/AndroidManifest.xml:53:17-69
-60-->/home/juanricci/Documents/UM/tif_III/tlsapp/tlsapp_repo/android/app/src/main/AndroidManifest.xml:53:25-66
+60-->/home/juanricci/Documents/UM/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:53:17-69
+60-->/home/juanricci/Documents/UM/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:53:25-66
 61
 62                <category android:name="android.intent.category.LAUNCHER" />
-62-->/home/juanricci/Documents/UM/tif_III/tlsapp/tlsapp_repo/android/app/src/main/AndroidManifest.xml:54:17-77
-62-->/home/juanricci/Documents/UM/tif_III/tlsapp/tlsapp_repo/android/app/src/main/AndroidManifest.xml:54:27-74
+62-->/home/juanricci/Documents/UM/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:54:17-77
+62-->/home/juanricci/Documents/UM/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:54:27-74
 63            </intent-filter>
 64
 65            <!-- Declare notch support -->
 66            <meta-data
-66-->/home/juanricci/Documents/UM/tif_III/tlsapp/tlsapp_repo/android/app/src/main/AndroidManifest.xml:58:13-83
+66-->/home/juanricci/Documents/UM/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:58:13-83
 67                android:name="android.notch_support"
-67-->/home/juanricci/Documents/UM/tif_III/tlsapp/tlsapp_repo/android/app/src/main/AndroidManifest.xml:58:24-60
+67-->/home/juanricci/Documents/UM/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:58:24-60
 68                android:value="true" />
-68-->/home/juanricci/Documents/UM/tif_III/tlsapp/tlsapp_repo/android/app/src/main/AndroidManifest.xml:58:61-81
+68-->/home/juanricci/Documents/UM/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:58:61-81
 69        </activity>
 70        <activity android:name="org.tensorflow.lite.examples.objectdetection.MainActivity" />
-70-->/home/juanricci/Documents/UM/tif_III/tlsapp/tlsapp_repo/android/app/src/main/AndroidManifest.xml:62:9-49
-70-->/home/juanricci/Documents/UM/tif_III/tlsapp/tlsapp_repo/android/app/src/main/AndroidManifest.xml:62:19-47
+70-->/home/juanricci/Documents/UM/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:62:9-49
+70-->/home/juanricci/Documents/UM/tif_III/tlsapp_repo/android/app/src/main/AndroidManifest.xml:62:19-47
 71
 72        <uses-library
 72-->[androidx.window:window:1.0.0-alpha09] /home/juanricci/.gradle/caches/transforms-3/2f316d4543385aac341da9392d2d1313/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml:25:9-27:40

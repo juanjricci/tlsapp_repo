@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/juanricci/Documents/UM/tif_III/tlsapp/tlsapp_repo/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
+            "outputFile": "/home/juanricci/Documents/UM/tif_III/tlsapp_repo/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
             "map": [
                 {
                     "source": "/home/juanricci/.gradle/caches/transforms-3/a442693322d28703e3aeef43ea2f13d1/transformed/material-1.0.0/res/values-large-v4/values-large-v4.xml",

@@ -40,6 +40,8 @@
     <string name="borrar">Borrar</string>
     <string name="toolbar">toolbar</string>
 
+    <string name="words">Palabras capturadas: %s</string>
+
     <string-array name="delegate_spinner_titles">
         <item>CPU</item>
         <item>GPU</item>
