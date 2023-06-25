@@ -8,16 +8,10 @@ import os
 nombre_base = input("Ingrese el nombre del gesto: ")
 
 # Definir el número de imágenes que se tomarán para cada nombre
-num_imagenes_por_nombre = 15
+num_imagenes_por_nombre = 5
 
 # Definir el número de nombres diferentes que se utilizarán
-num_nombres_diferentes = 27 #27
-#123456789
-#abcdefghi
-#0123456789
-#jklmnñopqr
-#01234567
-#stuvwxyz
+num_nombres_diferentes = 3 #27
 
 # Inicializar la cámara
 camara = cv2.VideoCapture(0)
@@ -43,7 +37,7 @@ for i in range(num_nombres_diferentes):
         # Generar un UUID para la imagen
         id_unica = str(uuid.uuid4())
 
-        path = f"collected_images/Derecha/{nombre_base}"
+        path = f"images/u/"
 
         if not os.path.exists(path):
             os.makedirs(path)

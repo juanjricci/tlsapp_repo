@@ -1,9 +1,0 @@
-Para crear el label map:
-1. En un script en python, creo un diccionario con las etiquetas. Cada una con un id diferente.
-2. En el mismo script, realizo un "with open" con parametro de escritura "w" para crear un archivo en formato .pbtxt y 
-escribir en él.
-    2.1. El archivo .pbtxt se utiliza en TensorFlow para definir el grafo de un modelo de aprendizaje automático, y se puede 
-utilizar para cargar y guardar modelos de TensorFlow. El archivo .pbtxt contiene información sobre los nodos y arcos 
-del grafo, incluyendo los nombres de los nodos, los tipos de operaciones que se realizan en cada nodo y los datos que 
-fluyen entre los nodos.
-3. Por cada etiqueta, escribo su nombre de etiqueta y su id en el archivo .pbtxt en formato json.
