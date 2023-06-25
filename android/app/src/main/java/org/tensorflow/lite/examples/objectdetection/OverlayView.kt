@@ -114,8 +114,8 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
             canvas.drawRect(
                 left,
                 top,
-                left + textWidth + Companion.BOUNDING_RECT_TEXT_PADDING,
-                top + textHeight + Companion.BOUNDING_RECT_TEXT_PADDING,
+                left + textWidth + BOUNDING_RECT_TEXT_PADDING,
+                top + textHeight + BOUNDING_RECT_TEXT_PADDING,
                 textBackgroundPaint
             )
 
@@ -157,11 +157,11 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
         }
 
         // Dibujo otro rectángulo al final del canvas
-        canvas.drawRect(0f, height - 365f, width.toFloat(), height - 100f, textBackgroundPaint)
+        canvas.drawRect(0f, height - 410f, width.toFloat(), height - 100f, textBackgroundPaint)
 
         // Escribo en pantalla el string formado con las detecciones
-        canvas.drawText(detectedSigns, 50f, height - 250f, textPaint)
-        canvas.drawText(second_line, 50f, height - 150f, textPaint)
+        canvas.drawText(detectedSigns, 50f, height - 300f, textPaint)
+        canvas.drawText(second_line, 50f, height - 175f, textPaint)
 
     }
 
