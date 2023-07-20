@@ -19,7 +19,9 @@ package org.tensorflow.lite.examples.objectdetection
 import android.content.Context
 import android.graphics.*
 import android.util.AttributeSet
+import android.view.Gravity
 import android.view.View
+import android.widget.Toast
 import androidx.core.content.ContextCompat
 import org.tensorflow.lite.task.vision.detector.Detection
 import java.util.*
@@ -40,9 +42,8 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
 
     private var label = ""
     private var score = 0.1f
-    //var words = mutableListOf<String>()
 
-    var letters_per_line = 24
+    var letters_per_line = 4
 
     var detectedSigns = ""
     var second_line = ""
@@ -215,6 +216,16 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
             third_line = wo_last
         }
         invalidate()
+    }
+
+    //funcion para concatenar los strings obtenidos en cada linea
+    fun concatenate_string() {
+        //return detectedSigns + second_line + third_line
+        val concatenatedString = detectedSigns + second_line + third_line
+        val toast = Toast.makeText(this.context,concatenatedString,
+            Toast.LENGTH_LONG)
+        toast.setGravity(Gravity.TOP, 0, 0)
+        toast.show()
     }
 
     fun clearAll() {

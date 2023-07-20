@@ -131,6 +131,10 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
         fragmentCameraBinding.delete.setOnClickListener {
             fragmentCameraBinding.overlay.clearAll()
         }
+
+        fragmentCameraBinding.verString.setOnClickListener {
+            fragmentCameraBinding.overlay.concatenate_string()
+        }
     }
 
     private fun initBottomSheetControls() {
