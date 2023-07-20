@@ -197,15 +197,22 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
     }
 
     fun clearDetectedSigns() {
-        if (second_line.isEmpty()){
-            val lastletter = detectedSigns.takeLast(1)
-            val wo_last = detectedSigns.removeSuffix(lastletter)
-            detectedSigns = wo_last
+        if (third_line.isEmpty()){
+            if (second_line.isEmpty()){
+                val lastletter = detectedSigns.takeLast(1)
+                val wo_last = detectedSigns.removeSuffix(lastletter)
+                detectedSigns = wo_last
+            }
+            else {
+                val lastletter = second_line.takeLast(1)
+                val wo_last = second_line.removeSuffix(lastletter)
+                second_line = wo_last
+            }
         }
         else {
-            val lastletter = second_line.takeLast(1)
-            val wo_last = second_line.removeSuffix(lastletter)
-            second_line = wo_last
+            val lastletter = third_line.takeLast(1)
+            val wo_last = third_line.removeSuffix(lastletter)
+            third_line = wo_last
         }
         invalidate()
     }
