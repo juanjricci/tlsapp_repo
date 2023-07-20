@@ -32,6 +32,7 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
     private var boxPaint = Paint()
     private var textBackgroundPaint = Paint()
     private var textPaint = Paint()
+    private var lowTextPaint = Paint()
 
     private var scaleFactor: Float = 1f
 
@@ -41,8 +42,12 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
     private var score = 0.1f
     //var words = mutableListOf<String>()
 
+    var letters_per_line = 24
+
     var detectedSigns = ""
     var second_line = ""
+    var third_line = ""
+
     private var detected = false
     private var lastLetter = ""
 
@@ -68,6 +73,10 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
         textPaint.color = Color.WHITE
         textPaint.style = Paint.Style.FILL
         textPaint.textSize = 100f
+
+        lowTextPaint.color = Color.WHITE
+        lowTextPaint.style = Paint.Style.FILL
+        lowTextPaint.textSize = 50f
 
         boxPaint.color = ContextCompat.getColor(context!!, R.color.bounding_box_color)
         boxPaint.strokeWidth = 12F
@@ -126,12 +135,15 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
             lastLetter = detectedSigns.takeLast(1)
             if (second_line.isNotEmpty()){
                 lastLetter = second_line.takeLast(1)
+                if (third_line.isNotEmpty()){
+                    lastLetter = third_line.takeLast(1)
+                }
             }
             // Verifico que la nueva letra sea distinta a la anterior, así no se escriben múltiples veces
             val newSign = label
             if (detected == false){
                 if (score > 0.80){
-                    if (second_line.length == 13) {
+                    if (third_line.length == letters_per_line) {
                         clearAll()
                     }
                     if (newSign == "ESPACIO"){
@@ -139,9 +151,15 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
                         detectedSigns += " "
                     }
                     else {
-                        if (detectedSigns.length >= 13){
-                            detected = true
-                            second_line += newSign
+                        if (detectedSigns.length >= letters_per_line){
+                            if (second_line.length >= letters_per_line){
+                                detected = true
+                                third_line += newSign
+                            }
+                            else{
+                                detected = true
+                                second_line += newSign
+                            }
                         }
                         else {
                             detected = true
@@ -160,8 +178,9 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
         canvas.drawRect(0f, height - 410f, width.toFloat(), height - 100f, textBackgroundPaint)
 
         // Escribo en pantalla el string formado con las detecciones
-        canvas.drawText(detectedSigns, 50f, height - 300f, textPaint)
-        canvas.drawText(second_line, 50f, height - 175f, textPaint)
+        canvas.drawText(detectedSigns, 50f, height - 300f, lowTextPaint)
+        canvas.drawText(second_line, 50f, height - 250f, lowTextPaint)
+        canvas.drawText(third_line, 50f, height - 200f, lowTextPaint)
 
     }
 
@@ -194,6 +213,7 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
     fun clearAll() {
         detectedSigns = ""
         second_line = ""
+        third_line = ""
         invalidate()
     }
 
