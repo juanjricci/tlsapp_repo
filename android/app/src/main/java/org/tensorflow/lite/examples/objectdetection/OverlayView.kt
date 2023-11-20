@@ -43,7 +43,7 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
     private var label = ""
     private var score = 0.1f
 
-    var letters_per_line = 4
+    var letters_per_line = 14
 
     var detectedSigns = ""
     var second_line = ""
@@ -219,7 +219,7 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
     }
 
     //funcion para concatenar los strings obtenidos en cada linea
-    fun concatenate_string() {
+    fun concatenateString() {
         //return detectedSigns + second_line + third_line
         val concatenatedString = detectedSigns + second_line + third_line
         val toast = Toast.makeText(this.context,concatenatedString,

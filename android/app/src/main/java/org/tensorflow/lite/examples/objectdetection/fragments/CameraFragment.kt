@@ -41,7 +41,7 @@ import java.util.LinkedList
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 import org.tensorflow.lite.examples.objectdetection.ObjectDetectorHelper
-import org.tensorflow.lite.examples.objectdetection.OverlayView
+//import org.tensorflow.lite.examples.objectdetection.OverlayView
 import org.tensorflow.lite.examples.objectdetection.R
 import org.tensorflow.lite.examples.objectdetection.databinding.FragmentCameraBinding
 import org.tensorflow.lite.task.vision.detector.Detection
@@ -56,7 +56,7 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
         get() = _fragmentCameraBinding!!
 
     private lateinit var objectDetectorHelper: ObjectDetectorHelper
-    private lateinit var overlayView: OverlayView
+    //private lateinit var overlayView: OverlayView
     private lateinit var bitmapBuffer: Bitmap
     private var preview: Preview? = null
     private var imageAnalyzer: ImageAnalysis? = null
@@ -133,7 +133,7 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
         }
 
         fragmentCameraBinding.verString.setOnClickListener {
-            fragmentCameraBinding.overlay.concatenate_string()
+            fragmentCameraBinding.overlay.concatenateString()
         }
     }
 
